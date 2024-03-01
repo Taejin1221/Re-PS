@@ -1,4 +1,4 @@
-// Baejkoon02941.cpp
+// Baekjoon02941.cpp
 #include <iostream>
 
 #include <string>
