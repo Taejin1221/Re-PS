@@ -5,9 +5,9 @@
 # Chore: 여러 환경 파일 수정한 경우
 ##########################################
 ##### solved.ac 관련 commit #####
-# Solve: solved.ac class # 진행 중(#/#)
-# Solve: solved.ac class #+ 진행 중(#/#)
-# Solve: solved.ac class #++ 진행 중(#/#)
+# Solve: solved.ac class # 진행 중(#/20)
+# Solve: solved.ac class #+ 진행 중(#/24)
+# Solve: solved.ac class #++ 진행 중(#/48)
 # Complete: solved.ac class # 완료
 
 # Solve: solved.ac 랜덤 마라톤 코스 # (#/8)
