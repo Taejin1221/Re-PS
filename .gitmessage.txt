@@ -3,6 +3,7 @@
 # Type 종류
 # Solve: 문제 풀었을 경우
 # Chore: 여러 환경 파일 수정한 경우
+# Solve: 춘식2 #주차 PS Study (#/3)
 ##########################################
 ##### solved.ac 관련 commit #####
 # Solve: solved.ac class # 진행 중(#/20)
