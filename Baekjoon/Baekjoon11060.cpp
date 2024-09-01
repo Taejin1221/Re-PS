@@ -7,6 +7,7 @@ using namespace std;
 
 using pii = pair<int, int>;
 
+// 
 int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
@@ -15,6 +16,8 @@ int main(void) {
     cin >> n;
 
     int arr[1'000];
+
+    /** Solution 1: BFS */
     for (int i = 0; i < n; i++)
         cin >> arr[i];
 
@@ -43,6 +46,28 @@ int main(void) {
     }
 
     cout << ans << '\n';
+
+    /** Solution 2: DP */
+    int dp[1'000];
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+        dp[i] = 0x3f3f3f3f;
+    }
+
+    dp[0] = 0;
+    for (int i = 0; i < n; i++) {
+        if (dp[i] != 0x3f3f3f3f) {
+            for (int j = 1; j <= arr[i] && i + j < n; j++) {
+                dp[i + j] = min(dp[i + j], dp[i] + 1);
+            }
+        }
+    }
+
+    if (dp[n - 1] == 0x3f3f3f3f)
+        cout << -1;
+    else
+        cout << dp[n - 1];
+    cout << '\n';
 
     return 0;
 }
