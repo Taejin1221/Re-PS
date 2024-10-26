@@ -31,3 +31,4 @@
 - Gold III : '24. 5. 28.
 - Gold II : '24. 6. 18.
 - Gold I : '24. 8. 6.
+- Platinum V : '24. 10. 26.
