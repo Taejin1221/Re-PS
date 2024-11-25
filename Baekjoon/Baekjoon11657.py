@@ -12,12 +12,12 @@ shortest = [0x3f3f3f3f] * (n + 1)
 shortest[1] = 0
 for _ in range(n):
     for s, e, c in edges:
-        if not (shortest[s] == 0x3f3f3f3f and shortest[e] == 0x3f3f3f3f) and shortest[s] + c < shortest[e]:
+        if shortest[s] != 0x3f3f3f3f and shortest[s] + c < shortest[e]:
             shortest[e] = shortest[s] + c
 
 is_negative = False
 for s, e, c in edges:
-    if not (shortest[s] == 0x3f3f3f3f and shortest[e] == 0x3f3f3f3f) and shortest[s] + c < shortest[e]:
+    if shortest[s] != 0x3f3f3f3f and shortest[s] + c < shortest[e]:
         is_negative = True
         break
 
