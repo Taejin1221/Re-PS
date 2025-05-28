@@ -17,7 +17,7 @@ int main(void) {
     int m;
     cin >> m;
 
-    ll left = 0, right = 400000020;
+    ll left = 0, right = 400'000'020;
     while (left + 1 < right) {
         ll mid = (left + right) / 2;
         if (get0(mid) >= m)
