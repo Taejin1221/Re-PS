@@ -12,7 +12,7 @@
 # Complete: solved.ac class # 완료
 
 # Solve: 랜덤 마라톤 코스 # (#/8)
-# Complete: solved.ac 랜덤 마라톤 코스 # 완료
+# Complete: 랜덤 마라톤 코스 # 완료
 ##########################################
 ##### 항해99 commit #####
 # Solve: 항해99 6기 ##일차 미션
