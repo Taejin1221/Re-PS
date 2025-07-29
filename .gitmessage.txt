@@ -11,7 +11,7 @@
 # Solve: solved.ac class #++ 진행 중(#/48)
 # Complete: solved.ac class # 완료
 
-# Solve: solved.ac 랜덤 마라톤 코스 # (#/8)
+# Solve: 랜덤 마라톤 코스 # (#/8)
 # Complete: solved.ac 랜덤 마라톤 코스 # 완료
 ##########################################
 ##### 항해99 commit #####
