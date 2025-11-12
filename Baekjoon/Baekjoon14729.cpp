@@ -1,7 +1,9 @@
 // Baekjoon14729.cpp
 #include <iostream>
 
-#define MAX 10
+#include <algorithm>
+
+#define MAX 10'000'000
 
 using namespace std;
 
